@@ -1,2 +1,3 @@
-# daily-coding-log
-Daily coding practice and notes
+# Daily Coding Log
+
+Started my GitHub consistency journey 🚀
