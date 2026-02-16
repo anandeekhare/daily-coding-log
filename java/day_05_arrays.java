@@ -7,3 +7,4 @@ public class Day05 {
         }
     }
 }
+System.out.println("Length: " + arr.length);
