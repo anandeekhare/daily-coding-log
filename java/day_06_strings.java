@@ -8,3 +8,4 @@ public class Day06 {
         System.out.println("First char: " + name.charAt(0));
     }
 }
+System.out.println("Contains 'dee': " + name.contains("dee"));
