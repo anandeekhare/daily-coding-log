@@ -17,3 +17,13 @@ public class Day09 {
         d.bark();  // own method
     }
 }
+
+class Cat extends Animal {
+    void meow() {
+        System.out.println("Cat meows");
+    }
+}
+
+Cat c = new Cat();
+c.eat();
+c.meow();
