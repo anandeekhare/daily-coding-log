@@ -1,16 +1,12 @@
 class Student {
     private String name;
     private int age;
-
-    // setter
-    public void setName(String n) {
-        name = n;
-    }
-
+    
     public void setAge(int a) {
+        if (a > 0) {
         age = a;
     }
-
+}
     // getter
     public String getName() {
         return name;
