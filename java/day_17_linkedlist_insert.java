@@ -1,3 +1,4 @@
+// Insertion in singly linked list
 class Node {
     int data;
     Node next;
