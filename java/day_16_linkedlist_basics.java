@@ -21,3 +21,4 @@ public class Day16 {
         }
     }
 }
+// Singly linked list creation and traversal
