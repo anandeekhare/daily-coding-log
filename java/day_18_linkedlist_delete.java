@@ -1,3 +1,4 @@
+// Deletion operations in singly linked list
 class Node {
     int data;
     Node next;
