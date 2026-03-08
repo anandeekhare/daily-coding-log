@@ -1,3 +1,4 @@
+// Check if linked list is palindrome using reverse technique
 class Node {
     int data;
     Node next;
