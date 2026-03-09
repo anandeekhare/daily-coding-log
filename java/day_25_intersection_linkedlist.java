@@ -44,3 +44,4 @@ public class Day25 {
             System.out.println("No intersection");
     }
 }
+// Find intersection node of two linked lists using pointer switching
