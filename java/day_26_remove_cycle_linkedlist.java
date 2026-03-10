@@ -1,3 +1,4 @@
+// Floyd's algorithm to detect and remove cycle in linked list
 class Node {
     int data;
     Node next;
