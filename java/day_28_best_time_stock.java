@@ -1,3 +1,4 @@
+// Find maximum profit from stock prices using one pass
 public class Day28 {
 
     static int maxProfit(int[] prices) {
