@@ -1,3 +1,4 @@
+// Kadane's algorithm to find maximum subarray sum
 public class Day29 {
 
     static int maxSubArray(int[] nums) {
