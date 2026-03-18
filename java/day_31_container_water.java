@@ -1,3 +1,4 @@
+// Max area using two pointer optimization
 public class Day31 {
 
     static int maxArea(int[] height) {
