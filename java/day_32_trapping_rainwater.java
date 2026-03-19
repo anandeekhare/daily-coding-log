@@ -1,3 +1,4 @@
+// Calculate trapped rain water using optimized two pointer method
 public class Day32 {
 
     static int trap(int[] height) {
