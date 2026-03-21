@@ -1,3 +1,4 @@
+// Sliding window with frequency array to allow k replacements
 public class Day34 {
 
     static int characterReplacement(String s, int k) {
