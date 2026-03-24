@@ -1,3 +1,4 @@
+// Binary search variation to find first and last index
 public class Day37 {
 
     static int firstOccurrence(int[] arr, int target) {
