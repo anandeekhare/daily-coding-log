@@ -1,3 +1,4 @@
+// Binary search on rotated sorted array using sorted half logic
 public class Day38 {
 
     static int search(int[] nums, int target) {
