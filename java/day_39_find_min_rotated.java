@@ -1,3 +1,4 @@
+// Binary search to find minimum element in rotated sorted array
 public class Day39 {
 
     static int findMin(int[] nums) {
