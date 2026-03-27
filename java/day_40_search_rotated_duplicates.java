@@ -1,3 +1,4 @@
+// Handle duplicates by shrinking boundaries when equal
 public class Day40 {
 
     static boolean search(int[] nums, int target) {
