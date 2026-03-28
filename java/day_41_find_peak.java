@@ -1,3 +1,4 @@
+// Binary search to find peak based on slope direction
 public class Day41 {
 
     static int findPeak(int[] nums) {
