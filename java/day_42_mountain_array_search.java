@@ -1,3 +1,4 @@
+// Combine peak finding and binary search for bitonic array
 public class Day42 {
 
     static int findPeak(int[] arr) {
