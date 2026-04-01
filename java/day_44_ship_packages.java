@@ -1,3 +1,4 @@
+// Binary search on capacity to minimize shipping days
 public class Day44 {
 
     static int shipWithinDays(int[] weights, int days) {
