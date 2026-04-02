@@ -1,3 +1,4 @@
+// Binary search to minimize maximum subarray sum
 public class Day45 {
 
     static int splitArray(int[] nums, int k) {
