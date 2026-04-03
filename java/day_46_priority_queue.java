@@ -1,3 +1,4 @@
+// Min heap: smallest element is always removed first
 import java.util.PriorityQueue;
 
 public class Day46 {
