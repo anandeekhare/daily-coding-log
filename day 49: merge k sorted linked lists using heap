@@ -1,0 +1,66 @@
+import java.util.PriorityQueue;
+
+class Node {
+    int data;
+    Node next;
+
+    Node(int d) {
+        data = d;
+        next = null;
+    }
+}
+
+public class Day49 {
+
+    static Node mergeKLists(Node[] lists) {
+
+        PriorityQueue<Node> pq = new PriorityQueue<>(
+            (a, b) -> a.data - b.data
+        );
+
+        for (Node node : lists) {
+            if (node != null) {
+                pq.add(node);
+            }
+        }
+
+        Node dummy = new Node(0);
+        Node tail = dummy;
+
+        while (!pq.isEmpty()) {
+
+            Node minNode = pq.poll();
+            tail.next = minNode;
+            tail = tail.next;
+
+            if (minNode.next != null) {
+                pq.add(minNode.next);
+            }
+        }
+
+        return dummy.next;
+    }
+
+    public static void main(String[] args) {
+
+        Node l1 = new Node(1);
+        l1.next = new Node(4);
+        l1.next.next = new Node(5);
+
+        Node l2 = new Node(1);
+        l2.next = new Node(3);
+        l2.next.next = new Node(4);
+
+        Node l3 = new Node(2);
+        l3.next = new Node(6);
+
+        Node[] lists = {l1, l2, l3};
+
+        Node result = mergeKLists(lists);
+
+        while (result != null) {
+            System.out.print(result.data + " ");
+            result = result.next;
+        }
+    }
+}
