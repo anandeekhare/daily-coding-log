@@ -6,7 +6,6 @@ public class Day70 {
 
         if (i < 0 || j < 0 || i >= n || j >= m || board[i][j] != 'O')
             return;
-
         board[i][j] = 'T';
 
         dfs(board, i+1, j);
